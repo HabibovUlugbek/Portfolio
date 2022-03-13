@@ -10,7 +10,7 @@ import Projects from './pages/Projects';
 
 export default function App() {
   return (
-    <>
+    <React.Fragment>
       <Router>
         <NavMenu />
         <ScrollToTop />
@@ -30,6 +30,6 @@ export default function App() {
         </Switch>
         <Footer />
       </Router>
-    </>
+    </React.Fragment>
   );
 }

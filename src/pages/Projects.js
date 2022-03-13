@@ -64,7 +64,7 @@ export default function Projects() {
     }
   };
   return (
-    <>
+    <React.Fragment>
       <ProjectStyle>
         <div className="container">
           <SectionTitle
@@ -94,6 +94,6 @@ export default function Projects() {
           </div>
         </div>
       </ProjectStyle>
-    </>
+    </React.Fragment>
   );
 }

@@ -44,7 +44,7 @@ export default function ContactForm() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   return (
-    <>
+    <React.Fragment>
       <FormStyle>
         <div className="form-group">
           <label htmlFor="name">
@@ -84,6 +84,6 @@ export default function ContactForm() {
         </div>
         <button type="submit">Send</button>
       </FormStyle>
-    </>
+    </React.Fragment>
   );
 }

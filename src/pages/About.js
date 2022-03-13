@@ -75,7 +75,7 @@ const AboutPageStyles = styled.div`
 
 export default function About() {
   return (
-    <>
+    <React.Fragment>
       <AboutPageStyles>
         <div className="container">
           <div className="top-section">
@@ -162,6 +162,6 @@ export default function About() {
         </div>
         <ContactBanner />
       </AboutPageStyles>
-    </>
+    </React.Fragment>
   );
 }
