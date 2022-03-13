@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/hero.jpg';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -28,7 +28,7 @@ const HeroStyles = styled.div`
     .hero__name {
       font-family: 'Montserrat SemiBold';
       font-size: 7rem;
-      color: var(--white);
+      color: grey ;
     }
   }
   .hero__img {
@@ -40,6 +40,7 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
+    color: darkgray ;
   }
   .hero__social,
   .hero__scrollDown {
@@ -154,16 +155,18 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span className="hero__name">Habibov Ulugbek</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
+              <span style={{color:"#565656"}}>
+              I am working as a  web developer for 6
+              months. I love to design and make new web experiences for the
               people.
+              </span>
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
@@ -176,11 +179,11 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://www.linkedin.com/in/ulugbekhabibov/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    IN
                   </a>
                 </li>
                 <li>
@@ -189,25 +192,25 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    TW
+                    TG
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://github.com/HabibovUlugbek"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    IG
+                    GB
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="https://leetcode.com/HabibovUlugbek/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    LE
                   </a>
                 </li>
               </ul>

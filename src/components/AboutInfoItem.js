@@ -10,13 +10,13 @@ const AboutItemStyles = styled.div`
   /* gap: 5rem; */
   margin-top: 3rem;
   .title {
-    font-size: 2.4rem;
+    font-size: 1.7rem;
   }
   .items {
     display: flex;
-    gap: 1.5rem;
+    gap: 2.5rem;
     position: absolute;
-    left: 18rem;
+    left: 20rem;
   }
   .item {
     background-color: var(--deep-dark);

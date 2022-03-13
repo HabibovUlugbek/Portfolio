@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/about-page-img.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -81,18 +81,18 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Habibov Ulugbek</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
+                  I am from Bukhara, Uzbekistan. A place of beauty and
+                  nature. Since my childhood, i love math and solving problems. I always
+                  try to find solution with my unique point of view. I also love
                   to create things that can be usefull to others.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
+                  I started coding since I entered the TUIT . Coding is also an
+                  art for me. I love it and now I have the opportunity to solve
                   along with the coding. I find it really interesting and I
                   enjoyed the process a lot.
                   <br />
@@ -115,15 +115,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['Bukhara. High School, 7-school']}
               />
               <AboutInfoItem
                 title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                items={['Karakul Academic lyceum']}
               />
               <AboutInfoItem
                 title="Varsity"
-                items={['University Of Chitiagong']}
+                items={['Tashkent University of Information Technology']}
               />
             </div>
             <div className="about__info__item">
@@ -131,31 +131,23 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'REACT','Redux']}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
-              />
-              <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                items={['Node', 'Express', 'Jest','MongoDB']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="2021 April-June"
+                items={['junior developer at WiSoft in Wisdom']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="2021 July-September"
+                items={['Front end developer at Napa Automative ']}
               />
             </div>
           </div>
