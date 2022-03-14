@@ -1,45 +1,45 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import PomodoroImg from '../images/pomodoro.png';
+import QuizImg from '../images/quizapp.png';
+import PortfolioImg from '../images/portfolio.png';
+import RockGameImg from '../images/rockgame.png';
+import TypingImg from '../images/typingmaster.png';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Quiz app',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'An application to check your knowledge abut the world. I developed the website in React',
+    img: QuizImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'Portfolio website',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'An app to help people to show their works to others.',
+    img: PortfolioImg,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Rock-Paper-Scissors',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      'Using this app you can play popular game. Also you will remember your childhood goog moments',
+    img: RockGameImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    name: "Typing Master",
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+      'This game for fun but at the time improve typing skill. The game is made using ReactJs.',
+    img: TypingImg,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
+    name: 'Pomodoro Timer',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+      'A timer website that will show your performance . Also you will use this website for time managment.',
+    img: PomodoroImg,
   },
 ];
 
