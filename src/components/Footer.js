@@ -57,10 +57,10 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Habibov Ulugbek</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
+            A Fullsatck developer from Bukhara, Uzbekistan.
+            I always make websites that have unique way and also has a good
             performance rate.
           </PText>
         </div>
@@ -96,15 +96,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+998912472072',
+                path: 'tel:+998912472072',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'habibovulugbek22@gmail.com',
+                path: 'mailto:habibovulugbek22@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Peshku , Bukhara, Uzbeksitan',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -112,7 +112,7 @@ export default function Footer() {
         </div>
         <div className="footer__col4">
           <FooterCol
-            heading="social Links"
+            heading="Social Links"
             links={[
               {
                 title: 'Facebook',
@@ -133,10 +133,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
+            © 2022 - Habibov Ulugbek 
           </PText>
         </div>
       </div>
