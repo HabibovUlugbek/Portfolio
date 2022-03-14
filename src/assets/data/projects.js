@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 import PomodoroImg from '../images/pomodoro.png';
 import QuizImg from '../images/quizapp.png';
 import PortfolioImg from '../images/portfolio.png';
@@ -8,7 +8,7 @@ import BookshelfImg from "../images/bookshelf.png";
 import LifeStoryImg from "../images/lifestory.png"
 const projects = [
   {
-    id: uuidv4(),
+    id: "sdffsasfsf",
     name: 'Quiz app',
     desc:
       'An application to check your knowledge abut the world. I developed the website in React',
@@ -16,7 +16,7 @@ const projects = [
     link:'https://questionary.netlify.app'
   },
   {
-    id: uuidv4(),
+    id: "Fsdfsfsfd",
     name: 'Portfolio website',
     desc:
       'An app to help people to show their works to others.',
@@ -24,7 +24,7 @@ const projects = [
     link:"https://portfoliohabibov.netlify.app"
   },
   {
-    id: uuidv4(),
+    id: "fsdfsdfdsfxzzddsfsdf",
     name: 'Bookshelf',
     desc:
       'An app to help people to find the suitable books . And also give their thoughts to the world . MERN stack project',
@@ -32,7 +32,7 @@ const projects = [
     link:'https://bookshelfnode.herokuapp.com/user'
   },
   {
-    id: uuidv4(),
+    id: "fsdfdsfsdfddsaasdafsfdsfsdf",
     name: 'Rock-Paper-Scissors',
     desc:
       'Using this app you can play popular game. Also you will remember your childhood goog moments',
@@ -40,7 +40,7 @@ const projects = [
     link:"https://rock-paper-scissors-by-habibov.netlify.app"
   },
   {
-    id: uuidv4(),
+    id: "gsdgdsgdsgds",
     name: 'LifeStory',
     desc:
       'this Fullstack app help sharing stories to give motivation from that. Besides you  can read others life truth',
@@ -48,7 +48,7 @@ const projects = [
     link:"https://lifestorybook.herokuapp.com/dashboard"
   },
   {
-    id: uuidv4(),
+    id: "dsfsdfsdfsdfsdgsd",
     name: "Typing Master",
     desc:
       'This game for fun but at the time improve typing skill. The game is made using ReactJs.',
@@ -56,7 +56,7 @@ const projects = [
     link:"https://typing-master.netlify.app"
   },
   {
-    id: uuidv4(),
+    id: "dsfsdfsdfsdfsdgsd",
     name: 'Pomodoro Timer',
     desc:
       'A timer website that will show your performance . Also you will use this website for time managment.',
